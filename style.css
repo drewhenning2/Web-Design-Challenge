@@ -1,56 +1,57 @@
 /* navbar styling*/
-a.navbar-brand{
+a.navbar-brand {
     margin-left: 10px;
     padding: 10px;
-    background-color: rgb(81, 175, 160);
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(70, 26, 173);
+    font-family: Copperplate, 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
 /* header styling*/
-h3{
-    color: rgb(81, 175, 160);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h3 {
+    color: rgb(175, 81, 159);
+    font-family: Copperplate, 'Times New Roman', Times, serif;
     padding: 15px;
 }
 
 /* image styling*/
-.img-thumbnail{
-    padding:10px;
+.img-thumbnail {
+    padding: 10px;
     border: none;
 }
 
 /* fontstyling for text*/
-p{
+p {
    font-family: Arial, Helvetica, sans-serif;
-   font-size: large;
-   padding:10px;
+   font-size: medium;
+   padding: 10px;
 }
 
 /* body background*/
-body{
+body {
     background-color: rgb(223, 222, 222);
 }
-.col-md-12{
+.col-md-12 {
     background-color: white;
     padding-top: 20px;
-    padding-bottom:40px;
+    padding-bottom: 40px;
 }
 
 /* image border styling*/
-.pic{
-    border: 3px solid rgb(81, 175, 160);
+.pic {
+    border: 3px solid rgb(175, 81, 159);
+    border-radius: 8px;
 }
 
 /* navbar styling*/
-.navbar{
-    padding-top:0px;
+.navbar {
+    padding-top: 0px;
     padding-bottom: 0px;
-    padding-right:40px;
+    padding-right: 40px;
 }
 
 .nav-item.dropdown.show {
-    background-color: #ddd;
+    background-color: white;
 }
 
 .dropdown-menu {
@@ -89,15 +90,15 @@ tr>td:nth-child(10) {
 
 
 /* small screen adjustments*/
-@media(max-width:767px){
-    .navbar.bg-light{
-        background-color: rgb(81, 175, 160)!important;    
+@media(max-width: 767px) {
+    .navbar.bg-light {
+        background-color: rgb(81, 122, 175)!important;    
     }
 
-    .navbar-collapse{
-        background-color: #f8f9fa;
+    .navbar-collapse {
+        background-color: white;
     }
-    .navbar{
-        padding:inherit;
+    .navbar {
+        padding: inherit;
     }
 }
